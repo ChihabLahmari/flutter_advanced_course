@@ -1,6 +1,6 @@
 name: advanced_course
 description: "A new Flutter project."
-publish_to: 'none'
+publish_to: "none"
 version: 0.1.0
 
 environment:
@@ -9,6 +9,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  # for adapting screen and font size.
+  flutter_screenutil: ^5.9.3
+  # An SVG rendering and widget library for Flutter, which allows painting
+  flutter_svg: ^2.0.14
 
 dev_dependencies:
   flutter_test:
@@ -17,3 +21,6 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/svgs/
